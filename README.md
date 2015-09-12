@@ -75,6 +75,14 @@ address can be specified in a single option as, for example, `-i
 10.0.0.3:41354`.  After the options are given, the list of projects
 and/or tabs is given.
 
+## Dependencies ##
+
+The computer program uses the sockets module and the posix module.
+These can be installed via luarocks.  The CRC32 code is included in
+the program directly.  The original code can be found
+[here](http://luamemcached.googlecode.com/svn/trunk/CRC32.lua).  It is
+tested with lua5.3.
+
 ## History ##
 
 The reason for this utility is that I used to backup my Codea projects
